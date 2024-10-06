@@ -10,7 +10,7 @@ body{
     font-family: "Nunito", sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 500px;
+    max-width: 600px;
     overflow:hidden;
 }
 #display{
@@ -19,7 +19,8 @@ body{
     font-size: 5rem;
     text-align: left;
     border: none;
-    background-color: white;
+    background-color: hsl(0, 0%, 20%);
+    color:white;
     margin: none;
 }
 #keys {

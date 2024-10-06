@@ -5,31 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Practice - Calculator Basic</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
 </head>
 <body>
-
 
     <div id="calculator-container">
         <input id="display" readonly>
         <div id="keys">
-            <button onclick="appendToDisplay('+')">+</button>
+            <button class="operatorsBtn" onclick="appendToDisplay('+')">+</button>
             <button onclick="appendToDisplay('7')">7</button>
             <button onclick="appendToDisplay('8')">8</button>
             <button onclick="appendToDisplay('9')">9</button>
-            <button onclick="appendToDisplay('-')">-</button>
+            <button class="operatorsBtn" onclick="appendToDisplay('-')">-</button>
             <button onclick="appendToDisplay('4')">4</button>
             <button onclick="appendToDisplay('5')">5</button>
             <button onclick="appendToDisplay('6')">6</button>
-            <button onclick="appendToDisplay('*')">*</button>
+            <button class="operatorsBtn" onclick="appendToDisplay('*')">*</button>
             <button onclick="appendToDisplay('1')">1</button>
             <button onclick="appendToDisplay('2')">2</button>
             <button onclick="appendToDisplay('3')">3</button>
-            <button onclick="appendToDisplay('/')">/</button>
+            <button class="operatorsBtn" onclick="appendToDisplay('/')">/</button>
             <button onclick="appendToDisplay('8')">0</button>
-            <button onclick="appendToDisplay('.')">.</button>
-            <button onclick="calculate()">=</button>
-            <button onclick="clearDisplay()">C</button>
-
+            <button class="operatorsBtn" onclick="appendToDisplay('.')">.</button>
+            <button class="operatorsBtn" onclick="calculate()">=</button>
+            <button class="operatorsBtn" onclick="clearDisplay()">C</button>
         </div>
     </div>
 
